@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <title>Daily News</title>
+    </head>
+    <body>
+        <header>
+            <i class="far fa-newspaper">
+                <input type="search" id="search" placeholder="Search"/>
+                <i class="fa fa-search"></i>
+                <i class="fas fa-bars"></i>
+            </i>
+            <h1>Contact us</h1>
+            <nav>
+              <a href="#">Home</a>
+              <a href="#">Politics</a>
+              <a href="#">Economy</a>
+              <a href="#">Sports</a>
+              <a href="#">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <h2>Leave your information and we will contact you as soon as possible</h2>
+            <form>
+                <p><label for="name">Name:</label>
+                <input type="text" id="name" name="name"></p>
+                <p><label for="email">Email:</label>
+                <input type="email" id="email" name="email"></p>
+                <P><label for="inquiry">What is your inquiry about?</label></P>
+                <select name="inquiry">
+                    <option value="c">Complaints and claims</option>
+                    <option value="l">Legal issues</option>
+                    <option value="j">Job search</option>
+                </select>
+                <p><label>If you are a journalist and looking for a job upload your professional resume here:</label></p>
+                <input type="file" name="file">
+                <p><label>Do you want to receive our newsletter?</label></p>
+                <input type="radio" name="newsletter" value="y">Yes</imput>
+                <input type="radio" name="newsletter" value="n">No</imput>
+                <p><label>Write your inquiry here:</label></p>
+                <textarea cols="40" rols="10"></textarea>
+                <p><button type="submit">Submit</button>
+                <button type="reset">Reset</button></p>
+            </form>
+        </main>
+        <footer>
+            <h3>Follow us on our networks</h3>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </footer>
+    </body>
+</html>
