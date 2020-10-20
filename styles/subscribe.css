@@ -58,6 +58,7 @@ main{
 
 section{
     border: white solid 4px;
+    background-image: linear-gradient(to bottom, black, white);
 }
 
 button{
