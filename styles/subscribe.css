@@ -65,8 +65,30 @@ button{
     width: 100px;
     height: 40px;
     font-weight: bold;
-    border: none;
+    border: black solid 4px;
+    animation: button-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes button-animation{
+    0%{
+        opacity: 0.3;
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0.3;
+    }
+}
+
 
 .promo{
     width: 932px;
