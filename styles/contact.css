@@ -71,7 +71,7 @@ form{
 
 main input{
     width: 300px;
-    height: 30px;
+    height: 50px;
     font-size: 20px;
     padding-left: 8px;
     background-color: white;
@@ -81,7 +81,7 @@ main input{
 
 textarea{
     width: 300px;
-    height: 100px;
+    height: 200px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     padding-left: 8px;
@@ -125,4 +125,37 @@ footer p{
     font-size: 20px;
     color: #EAFAF1;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        text-align: center;
+    }
+
+    .initial-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #search{
+        width: 250px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .nav-bar{
+        height: 20px;
+        font-size: 10px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
 }
