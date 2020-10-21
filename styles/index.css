@@ -23,7 +23,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 40px;
+    font-size: 30px;
     background-color: #1F618D;
     padding-bottom: 5px;
 }
@@ -93,8 +93,15 @@ main a{
     justify-content: space-around;
 }
 
+article{
+    width: 500px;
+    border: black solid 4px;
+    margin: 30px;
+    background-color: white;
+}
+
 img{
-    border: solid #1F618D 4px;
+    border: #1F618D solid 4px;
 }
 
 footer{

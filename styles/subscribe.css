@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 40px;
+    font-size: 30px;
     background-color: white;
     padding-bottom: 5px;
 }
@@ -51,9 +51,8 @@ main{
     grid-template-columns: 300px 300px 300px;
     grid-column-gap: 20px;
     grid-template-rows: 500px;
-    grid-row-gap: 20px;
     justify-content: center;
-    margin: 20px;
+    margin: 30px;
 }
 
 section{
@@ -73,45 +72,63 @@ button{
 
 @keyframes button-animation{
     0%{
+        opacity: 0.2;
+    }
+    10%{
         opacity: 0.3;
     }
-    25%{
-        opacity: 0.5;
+    20%{
+        opacity: 0.4;
+    }
+    30%{
+        opacity: 0.6;
+    }
+    40%{
+        opacity: 0.8;
     }
     50%{
         opacity: 1;
     }
-    75%{
-        opacity: 0.5;
+    60%{
+        opacity: 0.8;
+    }
+    70%{
+        opacity: 0.6;
+    }
+    80%{
+        opacity: 0.4;
+    }
+    90%{
+        opacity: 0.3;
     }
     100%{
-        opacity: 0.3;
+        opacity: 0.2;
     }
 }
 
-
 .promo{
     width: 932px;
+    margin-top: 20px;
 }
 
 footer{
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: white;
     padding-bottom: 20px;
 }
 
 footer h3{
-    color: white;
+    color: black;
 }
 
 footer i{
     font-size: 40px;
-    color: white;
+    color: black;
 }
 
 footer p{
     font-size: 20px;
-    color: white;
+    color: black;
     font-weight: bold;
 }
