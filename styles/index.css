@@ -10,13 +10,20 @@ body{
     flex-direction: row;
     justify-content: space-around;
     font-size: 60px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #search{
     width: 800px;
     height: 30px;
     margin-top: 15px;
+    font-size: 20px;
+    font-family: monospace;
+    border: solid black 2px;
+}
+
+::placeholder{
+    color: black;
 }
 
 .nav-bar{
@@ -43,6 +50,7 @@ body{
 
 h1{
     font-size: 40px;
+    font-weight: bold;
 }
 
 h2{
@@ -64,26 +72,14 @@ main a{
     text-decoration: none;
 }
 
-.links{
-    color: #1F618D;
-    text-decoration: none;
-}
-
 .news{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-article{
-    width: 500px;
-    border: black solid 4px;
-    margin: 30px;
-    background-color: white;
-}
-
-img{
-    border: #1F618D solid 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 footer{
@@ -91,9 +87,12 @@ footer{
     flex-direction: column;
     background-color: #1F618D;
     padding: 20px;
+    margin-top: 20px;
 }
 
 footer h3{
+    font-size: 25px;
+    font-weight: bold;
     color: #EAFAF1;
 }
 
@@ -107,6 +106,84 @@ footer p{
     color: #EAFAF1;
     font-weight: bold;
 }
+
+/* Bootstrap */
+.alert{
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.alert a{
+    color: #1F618D;
+    text-decoration: none;
+    animation: join-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes join-animation{
+    0%{
+        opacity: 0.2;
+    }
+    10%{
+        opacity: 0.3;
+    }
+    20%{
+        opacity: 0.4;
+    }
+    30%{
+        opacity: 0.6;
+    }
+    40%{
+        opacity: 0.8;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0.8;
+    }
+    70%{
+        opacity: 0.6;
+    }
+    80%{
+        opacity: 0.4;
+    }
+    90%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 0.2;
+    }
+}
+.card{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: solid #155724 1px;
+    border-radius: 0px;
+}
+
+.card img{
+    border: none;
+    border-radius: 0px
+}
+
+.card-body a{
+    font-size: 30px;
+    color: #155724;
+}
+.top-hot-news{
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #155724;
+    color: #EAFAF1;
+}
+
+.list-group-item{
+    background-color: #D4EDDA;
+}
+/* Bootstrap */
 
 @media only screen and (max-width: 768px){
     body{
@@ -130,10 +207,10 @@ footer p{
     }
 
     .nav-bar{
-        height: 20px;
         font-size: 10px;
         font-weight: bold;
         padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     h1{
@@ -161,11 +238,8 @@ footer p{
         justify-content: space-around;
         width: 300px;
     }
-
-    article{
-        width: 280px;
-        margin: 10px;
-        border: #1F618D solid 4px;
-        background-color: white;
+    
+    .card-two{
+        margin-top: 20px;
     }
 }
