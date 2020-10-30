@@ -18,7 +18,6 @@ body{
     height: 30px;
     margin-top: 15px;
     font-size: 20px;
-    font-family: monospace;
     border: solid black 2px;
 }
 
@@ -50,12 +49,13 @@ body{
 
 h1{
     font-size: 40px;
-    margin-top: 0px;
-    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 h2{
     font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 p{
@@ -122,6 +122,8 @@ footer{
 }
 
 footer h3{
+    font-size: 25px;
+    font-weight: bold;
     color: #EAFAF1;
 }
 
@@ -156,15 +158,19 @@ footer p{
         height: 30px;
         margin-top: 10px;
     }
-
+    
     .nav-bar{
-        height: 20px;
         font-size: 10px;
         font-weight: bold;
         padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     h2{
         font-size: 30px;
+    }
+
+    .button-delete{
+        display: none;
     }
 }
