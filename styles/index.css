@@ -86,7 +86,6 @@ footer{
     flex-direction: column;
     background-color: #1F618D;
     padding: 20px;
-    margin-top: 20px;
 }
 
 footer h3{
@@ -155,6 +154,17 @@ footer p{
         opacity: 0.2;
     }
 }
+
+.fast-news{
+    color: #1F618D;
+    margin: 10px;
+}
+
+.row{
+    color: #EAFAF1;
+    background-color: #1F618D;
+}
+
 .card{
     margin-right: 10px;
     margin-left: 10px;
@@ -170,17 +180,6 @@ footer p{
 .card-body a{
     font-size: 30px;
     color: #155724;
-}
-.top-hot-news{
-    list-style: none;
-    font-size: 30px;
-    font-weight: bold;
-    background-color: #155724;
-    color: #EAFAF1;
-}
-
-.list-group-item{
-    background-color: #D4EDDA;
 }
 /* Bootstrap */
 
