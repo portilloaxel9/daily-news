@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="styles/index.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -24,14 +24,14 @@
       </nav>
       <h1 class="title-color">STAY STRONG, STAY INFORMED ABOUT DAILY NEWS</h1>
       <nav class="nav-bar">
-        <a href="./index.html">HOME</a>
-        <a href="./pages/politics.html">POLITICS</a>
-        <a href="./pages/economy.html">ECONOMY</a>
-        <a href="./pages/sports.html">SPORTS</a>
-        <a href="./pages/contact.html">CONTACT</a>
+        <a class="nav-bar__a" href="./index.html">HOME</a>
+        <a class="nav-bar__a" href="./pages/politics.html">POLITICS</a>
+        <a class="nav-bar__a" href="./pages/economy.html">ECONOMY</a>
+        <a class="nav-bar__a" href="./pages/sports.html">SPORTS</a>
+        <a class="nav-bar__a" href="./pages/contact.html">CONTACT</a>
       </nav>
     </header>
-    <main class="text-color">
+    <main>
       <div class="alert alert-success" role="alert">
         <h4 class="alert-heading">¡Welcome to Daily News!</h4>
         <p>Subscribe today and get unlimited content</p>
@@ -42,7 +42,7 @@
         <div class="card">
           <img src="./images/programming.jpg" class="card-img-top" alt="illustrative image">
           <div class="card-body">
-            <a href="*">Learn to program</a>
+            <a class="card-body__a" href="*">Learn to program</a>
             <p>Get to know the job of the future.</p>
             <p class="card-text"><small class="text-muted">Last updated 9 mins ago</small></p>
           </div>
@@ -50,7 +50,7 @@
         <div class="card">
           <img src="./images/cats.jpg" class="card-img-top" alt="illustrative image">
           <div class="card-body">
-            <a href="*">Cats make us happier</a>
+            <a class="card-body__a" href="*">Cats make us happier</a>
             <p>All the doctors in the world affirm it.</p>
             <p class="card-text"><small class="text-muted">Last updated 17 mins ago</small></p>
           </div>
@@ -58,7 +58,7 @@
         <div class="card">
           <img src="./images/buenos-aires.jpg" class="card-img-top" alt="illustrative image">
           <div class="card-body">
-            <a href="*">Welcome to BA</a>
+            <a class="card-body__a" href="*">Welcome to BA</a>
             <p>This year visit Argentina.</p>
             <p class="card-text"><small class="text-muted">Last updated 22 mins ago</small></p>
           </div>
@@ -68,7 +68,7 @@
         <div class="card">
           <img src="./images/pandemic.jpg" class="card-img-top" alt="illustrative image">
           <div class="card-body">
-            <a href="*">The pandemic is over</a>
+            <a class="card-body__a" href="*">The pandemic is over</a>
             <p>We won't miss you.</p>
             <p class="card-text"><small class="text-muted">Last updated 35 mins ago</small></p>
           </div>
@@ -76,7 +76,7 @@
         <div class="card">
           <img src="./images/protests.jpg" class="card-img-top" alt="illustrative image">
           <div class="card-body">
-            <a href="*">Protests in USA</a>
+            <a class="card-body__a" href="*">Protests in USA</a>
             <p>Social movements demand their rights.</p>
             <p class="card-text"><small class="text-muted">Last updated 39 mins ago</small></p>
           </div>
@@ -84,7 +84,7 @@
         <div class="card">
           <img src="./images/halloween.jpg" class="card-img-top" alt="illustrative image">
           <div class="card-body">
-            <a href="*">Check out the best costumes</a>
+            <a class="card-body__a" href="*">Check out the best costumes</a>
             <p>Halloween is coming.</p>
             <p class="card-text"><small class="text-muted">Last updated 43 mins ago</small></p>
           </div>
@@ -104,15 +104,15 @@
         </div>
       </div>
     </div>
-    <footer>
-      <h3>FOLLOW US ON OUR NETWORKS</h3>
-      <div>
+    <footer class="footer">
+      <h3 class="footer__title">FOLLOW US ON OUR NETWORKS</h3>
+      <div class="footer__icons">
         <i class="fab fa-twitter-square"></i>
         <i class="fab fa-facebook-square"></i>
         <i class="fab fa-instagram"></i>
         <i class="fab fa-linkedin"></i>
       </div>
-      <div>
+      <div class="footer__copyright">
         <p>Daily News © 2020</p>
       </div>
     </footer>
