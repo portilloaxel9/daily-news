@@ -118,19 +118,24 @@ footer{
     padding-bottom: 20px;
 }
 
-footer h3{
+.footer__title{
+    font-size: 25px;
+    font-weight: bold;
     color: black;
+    margin-bottom: 0px;
 }
 
-footer i{
-    font-size: 40px;
+.footer__icons{
+    font-size: 50px;
     color: black;
 }
 
 footer p{
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 16px;    
 }
 
 @media only screen and (max-width: 768px){
