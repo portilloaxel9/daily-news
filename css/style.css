@@ -131,8 +131,6 @@ footer {
       font-size: 30px; }
     body h2 {
       font-size: 20px; }
-    body p {
-      font-size: 10px; }
   header .initial-bar {
     display: flex;
     flex-direction: row;
@@ -158,6 +156,8 @@ footer {
     margin-bottom: 0px;
     margin-left: 20px;
     margin-right: 20px; }
+    main p {
+      font-size: 10px; }
     main .alert {
       margin-bottom: 20px; }
     main .headline {
@@ -216,6 +216,7 @@ footer {
 /*--------------Media Queries--------------*/
 @media only screen and (max-width: 768px) {
   .contact h2 {
-    font-size: 30px; }
+    font-size: 30px;
+    margin-top: 0px; }
   .contact .button-delete {
     display: none; } }

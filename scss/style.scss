@@ -197,10 +197,6 @@ footer{
         h2{
             font-size: 20px;
         }
-    
-        p{
-            font-size: 10px;
-        }
     }
 
     header{
@@ -236,6 +232,10 @@ footer{
         margin-bottom: 0px;
         margin-left: 20px;
         margin-right: 20px;
+            
+        p{
+            font-size: 10px;
+        }
 
         .alert{
             margin-bottom: 20px;
@@ -254,3 +254,4 @@ footer{
 }
 
 @import "contact";
+//@import "subscribe";
