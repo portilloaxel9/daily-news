@@ -38,7 +38,10 @@ header .nav-bar {
   padding-bottom: 5px; }
   header .nav-bar .nav-bar__a {
     text-decoration: none;
+    font-weight: bold;
     color: #EAFAF1; }
+  header .nav-bar .nav-bar__a:hover {
+    color: white; }
 
 header .title-color {
   color: #1F618D; }
@@ -90,13 +93,18 @@ footer {
     color: #EAFAF1;
     margin-bottom: 0px; }
   footer .footer__icons {
-    font-size: 50px;
+    font-size: 40px;
     color: #EAFAF1; }
   footer p {
-    font-size: 25px; }
+    font-size: 20px; }
   footer .footer__copyright {
     color: #EAFAF1;
     font-weight: bold; }
+  footer .mailto {
+    color: #EAFAF1;
+    text-decoration: none; }
+  footer .mailto:hover {
+    color: white; }
 
 /*--------------Animations--------------*/
 @keyframes join-animation {
